@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display|Montserrat:400,900|Playfair+Display|Roboto+Slab|Permanent+Marker');
+
+/*Los H2 correspondientes a los apartados. Para ello utilizaré la propiedad Gradient Linear de CSS3*/
+
+h2 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background: -webkit-linear-gradient(#f70c0c, #f7660c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+/*Indice*/
+
+#indice {
+  margin: 3px;
+  height: 10%;
+  padding: 2px;
+  border-top: 2px solid orange;
+  border-bottom: 2px solid orange;
+}
+
+p.in1 {
+  height: 10%;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+/*Banner. Mediante DIV se crea y ajustan todos los parametros*/
+
+#bannerimage {
+  padding: 0px;
+  margin: 0px;
+  background:black;
+  border: 1px solid black;
+}
+
+h1.banner {
+  border-top: 2px solid black;
+  color: white;
+  background-color: black;
+  height: 50px;
+  font-family: 'Major Mono Display', monospace;
+  font-size: 40px;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+/*DIV PRESENTACION --> Disposicion de elementos: img*/
+
+#presentacion {
+    margin:3px;
+    padding:5px;
+    border:2px solid red;
+}  
+
+.imgprincipalpre1 {
+    float:left;
+    width: 10%; 
+    height: 15%;
+}
+
+.pre {
+    margin:5px;
+    text-align: justify;
+    padding: 2px;
+    font-family: 'Montserrat:400', sans-serif;
+}
+
+/*DIV IMAGENES CARRUSEL*/
+
+#imagenes1sec {
+  position: cen
+  margin: 2px;
+  padding: 5px;
+}
+
+/*DIV TOPONOMIA*/
+
+#toponomia {
+    border: 2px solid burlywood;
+    margin:3px;
+    padding:5px;
+  }
+
+  p.topo {
+    margin: 5px;
+    text-align: justify;
+    font-family: 'Montserrat:400', sans-serif;
+    padding: 2px;
+  }
+
+/*DIV DEMOGRAFIA Y CSS TABLA*/
+
+#demografia {
+    border: 2px solid orangered;
+    margin:3px;
+    padding:5px;
+  }
+    table.tablaDavid {
+        margin: 3px;
+        padding: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid #FFFFFF;
+        background-color: #FFFFFF;
+        width: 100%;
+        height: 200px;
+        text-align: center;
+        border-collapse: collapse;
+      }
+      table.tablaDavid td, table.tablaDavid th {
+        border: 1px solid #AAAAAA;
+        padding: 3px 5px;
+      }
+      table.tablaDavid tbody td {
+        font-size: 13px;
+      }
+      table.tablaDavid tr:nth-child(even) {
+        background: #D0E4F5;
+      }
+      table.tablaDavid td:nth-child(even) {
+        background: #D0E4F5;
+      }
+      table.tablaDavid thead {
+        background: #0065fe;
+        background: -moz-linear-gradient(top, #0065fe 0%, #0065fe 66%, #0065fe 100%);
+        background: -webkit-linear-gradient(top, #0065fe 0%, #0065fe 66%, #0065fe 100%);
+        background: linear-gradient(to bottom, #0065fe 0%, #0065fe 66%, #0065fe 100%);
+        border-bottom: 2px solid #444444;
+      }
+      table.tablaDavid thead th {
+        font-size: 15px;
+        font-weight: bold;
+        color: #FFFFFF;
+        border-left: 2px solid #D0E4F5;
+      }
+      table.tablaDavid thead th:first-child {
+        border-left: none;
+      }
+      
+      table.tablaDavid tfoot {
+        font-size: 14px;
+        font-weight: bold;
+        color: #FFFFFF;
+        background: #D0E4F5;
+        background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+        background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+        background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+        border-top: 2px solid #444444;
+      }
+      table.tablaDavid tfoot td {
+        font-size: 14px;
+      }
+      table.tablaDavid tfoot .links {
+        text-align: right;
+      }
+      table.tablaDavid tfoot .links a{
+        display: inline-block;
+        background: #0065fe;
+        color: #FFFFFF;
+        margin: 3px;
+        padding: 3px 5px;
+        border-radius: 5px;
+      }
+
+
+/*DIV EDUCACION*/
+
+#educacion {
+    border: 2px solid rosybrown;
+    margin:3px;
+    padding:5px;
+  }
+
+li .liol {
+margin: 3px;
+padding: 5px;
+}
+
+#CaminoSantiago {
+    border: 2px solid greenyellow;
+    margin:3px;
+    padding:5px;
+  }
+
+  p.camisan {
+    float: left;
+    text-align: justify;
+  }
+
+  /*Footer de la web*/
+
+  #footer {
+    border:3px solid black;
+    margin: 3px;
+    padding: 5px;
+  }
+
+
+
